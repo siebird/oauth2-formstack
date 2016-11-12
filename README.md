@@ -7,7 +7,7 @@ This package provides Formstack OAuth 2.0 support for the PHP League's [OAuth 2.
 To install, use composer:
 
 ```
-composer require siebird/oauth2-rdio
+composer require siebird/oauth2-formstack
 ```
 
 ## Usage
