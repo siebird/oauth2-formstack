@@ -1,6 +1,13 @@
 {
     "name": "siebird/oauth2-formstack",
     "description": "Formstack OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Austin Siewert",
+            "email": "austin@siebird.com"
+        }
+    ],
     "keywords": [
         "oauth",
         "oauth2",
@@ -13,16 +20,9 @@
         "formstack",
         "formstack api"
     ],
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Austin Siewert",
-            "email": "austin@siebird.com"
-        }
-    ],
     "require": {
         "php": ">=5.5.0",
-        "league/oauth2-client": "^1.0"
+        "league/oauth2-client": "~1.2"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.0",
@@ -38,5 +38,10 @@
         "psr-4": {
             "Siebird\\OAuth2\\Client\\Test\\": "test/src/"
         }
+    },
+    "extra": {
+      "branch-alias": {
+          "dev-master": "1.0"
+      }
     }
 }
