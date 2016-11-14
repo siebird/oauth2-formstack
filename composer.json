@@ -5,7 +5,8 @@
     "authors": [
         {
             "name": "Austin Siewert",
-            "email": "austin@siebird.com"
+            "email": "austin@siebird.com",
+            "homepage": "https://siebird.com"
         }
     ],
     "keywords": [
@@ -18,8 +19,7 @@
     ],
     "require": {
         "php": ">=5.5.0",
-        "league/oauth2-client": "~1.2",
-        "siebird/oauth2-formstack": "dev-master"
+        "league/oauth2-client": "~1.2"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.0",
@@ -34,6 +34,11 @@
     "autoload-dev": {
         "psr-4": {
             "Siebird\\OAuth2\\Client\\Test\\": "test/src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
         }
     }
 }
