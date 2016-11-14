@@ -2,6 +2,7 @@
 
 namespace Siebird\OAuth2\Client\Provider;
 
+use GuzzleHttp\Psr7\Uri;
 use League\OAuth2\Client\Provider\AbstractProvider;
 use League\OAuth2\Client\Provider\Exception\IdentityProviderException;
 use League\OAuth2\Client\Provider\ResourceOwnerInterface;

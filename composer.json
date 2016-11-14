@@ -13,10 +13,6 @@
         "oauth2",
         "authorization",
         "authentication",
-        "idp",
-        "identity",
-        "sso",
-        "single sign on",
         "formstack",
         "formstack api"
     ],
@@ -40,8 +36,8 @@
         }
     },
     "extra": {
-      "branch-alias": {
-          "dev-master": "1.0-dev"
-      }
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
     }
 }
